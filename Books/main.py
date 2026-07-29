@@ -3,8 +3,6 @@ from validations import input_int
 from book_manager_actions import display_menu, add_new_book, search_book_by_title, search_book_by_author, search_book_by_year, filter_books_by_type, update_book_details, delete_book
 
 
-# Main function
-
 manager = BookManager()
 manager.load_books()
 
